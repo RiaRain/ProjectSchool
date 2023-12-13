@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #c9d6ff;
+    background: linear-gradient(to left, #e92a2d, rgb(255, 255, 255));
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 100vh;
+}
+
+button{
+    background-color: #ff575a;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin:40px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+
+button:active{
+    background-color: #5a1b1c;
+}
+input{
+    background-color: #eee;
+    border: none;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    min-width: 100px;
+    outline: none;
+}
+
+.window{
+    background-color: #eee;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px 45px;
+    border-radius: 8px;
+    min-height: 300px;
+
+}
+
+.container{
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin: 100px;
+    min-height: 100%;
+    padding-top: 40px;
+}
+
+.bottom_buttons{
+    display: flex;
+    margin: 40px;
+}
+p{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.bottom_buttons div{
+    max-width: 100%;
+    background-color: #ffffff;
+}
+
+b{
+    text-transform: uppercase;
+}
+
+
+
+

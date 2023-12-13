@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Регистрация</title>
+  
+<link rel="stylesheet" href="/front nir/style/style_reg.css">
+  <link rel="stylesheet" href="/front nir/style/style.css">
+</head>
+
+<body>
+
+
+ 
+  <header>
+    <a href="index.html" class="main_button">Главная</a>
+    <a href="teachers.html" class="main_button">Учителя</a>
+    <a href="timetable.html" class="main_button">Расписание</a>
+       <a href="registration.html" class="main_button">Оставить заявку</a>
+  </header>
+
+  <div class="container">
+    <form method="POST" action="http://localhost:3000/add_app_form">
+      <span>Запишитесь на ваш первый урок и мы с вами свяжемся</span>
+      <input  type="text" name="name" id="name" placeholder="Имя">
+      <input type="email" name="email" id="email" placeholder="Email">
+      <input type="tel" name="tel" id="tel" placeholder="Номер телефона">
+      <button type="submit">Записаться</button>
+    </form>
+  </div>
+  <footer>
+    <p> ЧОУДО "Школа китайского языка Конфуз" </p>
+    <p><b>8-800-555-35-35</b> проще позвонить, чем другие школы выбирать</p>
+    <a class="link_youtube" href="https://www.youtube.com/">Мы на YouTube</a>
+  </footer>
+</body>
+<script src="/front nir/js/script.js"></script>
+</html>

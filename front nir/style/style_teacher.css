@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(67, 50, 73, 0.3);
+  }
+  .blank{
+    width: 100%;
+    min-height: 100px;
+    background-color: #000000;
+  }
+  .main_button {
+    width: 100;
+    align-items: center;
+    background: #FFFFFF;
+    border: 0 solid #E2E8F0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    color: #1A202C;
+    display: inline-flex;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 56px;
+    justify-content: center;
+    line-height: 24px;
+    overflow-wrap: break-word;
+    padding: 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+body{
+    background-color: #c9d6ff;
+    background: linear-gradient(to left, #e92a2d, rgb(255, 255, 255));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+.bio{
+    display: flex;
+    flex-direction: column;
+    color: #323232;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-attachment: fixed;
+    gap: 2.5rem;
+  }
+  .bio .teacher{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 250px;
+    background-image: url("/front nir/static/image/fon.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.7rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    transition: all 0.3s ease;
+  }
+  .bio .teacher .photo1{
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    background-image: url("/front nir/static/image/teacher1.png");
+    background-size: cover;
+    border-radius: 50%;
+  }
+  .bio .teacher .photo2{
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    background-image: url("/front nir/static/image/teacher2.jpg");
+    background-size: cover;
+    border-radius: 50%;
+  }
+  .bio .teacher .photo3{
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    background-image: url("/front nir/static/image/teacher3.png");
+    background-size: cover;
+    border-radius: 50%;
+  }
+ 
+  .bio .teacher .info1{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+
+  footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
